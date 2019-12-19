@@ -8,7 +8,7 @@ public class P02{
 
         Scanner s1 = new Scanner(System.in);
         s = s2;
-        System.out.println("Error!");
+        System.out.println("Error after this!");
         String s2 = new String();
     }
 }
