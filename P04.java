@@ -3,7 +3,8 @@ class SimpleDotGame{
     int[] locationCells;
     int numberOfHits;
     String checkYourself(String userGuess){
-        int userGuessInt  = Integer.valueOf(Integer.parseInt(userGuess));
+        //int userGuessInt  = Integer.valueOf(Integer.parseInt(userGuess));
+        int userGuessInt = Integer.parseInt(userGuess);
         for(int i=0; i<locationCells.length; i++){
             if(locationCells[i] == userGuessInt) {
                 numberOfHits++;
