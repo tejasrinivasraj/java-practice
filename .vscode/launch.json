@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - GameHelper",
+            "request": "launch",
+            "mainClass": "com.headfirstjava.GameHelper",
+            "projectName": "java-practice_8231b15e"
+        }
+    ]
+}
