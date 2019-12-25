@@ -32,8 +32,8 @@ class Ball{
 }
 
 class BallFinderGame {
-    int randomX = 9;
-    int randomY = 9;
+    int randomX = (int) (Math.random()*10);
+    int randomY = (int) (Math.random()*10);
     Ball ball = new Ball(randomX, randomY);
 
     int[] getNextMove(int currentX, int currentY){
