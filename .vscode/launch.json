@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - BallFinder",
+            "request": "launch",
+            "mainClass": "com.headfirstjava.BallFinder",
+            "projectName": "java-practice_8231b15e"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - GameHelper",
             "request": "launch",
             "mainClass": "com.headfirstjava.GameHelper",

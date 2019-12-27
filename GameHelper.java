@@ -1,4 +1,4 @@
-package com.headfirstjava;
+package PackagesExercise.src.com.headfirstjava;
 
 class Ball{
     private int x_coordinate;
