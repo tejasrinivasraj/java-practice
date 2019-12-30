@@ -1,5 +1,3 @@
-package PackagesExercise.src.com.headfirstjava;
-
 class Ball{
     private int x_coordinate;
     private int y_coordinate;
