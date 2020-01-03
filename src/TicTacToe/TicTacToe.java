@@ -17,7 +17,7 @@ class Player {
         this.playerMark = playerMark;
     }
 
-    ArrayList<Coordinates> playerMarks = new ArrayList<Coordinates>();
+    //ArrayList<Coordinates> playerMarks = new ArrayList<Coordinates>();
 
     Grid markBlock(Grid board, Coordinates currentCoordinates) {
         board.grid[currentCoordinates.x][currentCoordinates.y] = this.playerMark;
